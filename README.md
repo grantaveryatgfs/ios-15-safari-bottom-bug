@@ -1,6 +1,9 @@
 # FB9857340 - ios-15-safari-bottom-bug
 ## When interacting with a text input field at the bottom of a browser tab, Safari's browser background is popping up and sticking around when it should only be visible when actively pulling/scrolling on the screen
 
+![LOOK HERE FIRST](LOOK-HERE-FIRST.png "LOOK HERE FIRST")
+
+
 I’m running into two related bugs on iOS 15 Safari (including the recent 15.3 release) with a chatbot that lives as an iframe on top of another site. When the user is scrolled to the bottom of the main/parent site’s content, and then taps to open up the text input field in the iframe, the browser background/chrome will pop up and take up visual space between the minimized URL bar and the page contents.
 
 After some research with a basic reproduction, I’ve also determined the some of these issues also happen without an iframe, and just a simple input field toward the bottom of a page. This seems to be an issue with how Safari handles viewport resizing upon keyboard open/close and scrolling to the bottom of the site’s content.
