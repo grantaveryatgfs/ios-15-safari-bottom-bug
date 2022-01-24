@@ -1,0 +1,133 @@
+<!-- Open this file on an iOS device running 15.3 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Adding `viewport-fit=cover` to the `viewport` here resolves issue `B)` but I'm not sure why,
+          and obviously it isn't the greatest solution -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Making this orange for easier debugging, but the issue occurs whether or not `theme-color` is set -->
+    <meta name="theme-color" content="orange" />
+    <title>Parent Site</title>
+  </head>
+  <body>
+    <!-- Uncomment this iframe element and comment out the input element on the bottom of the page to see bug #2,
+      which occurs when using an input inside an iframe: -->
+    <!-- Use the the file src when "running" just on your local computer, but to view on a phone use something
+      like https://ngrok.com/docs#getting-started-expose to route this folder through an http server
+      (e.g. `ngrok http file:///Users/me/code/ios-15-safari-bottom-bug/parent.html`),
+      at which point you can view it on your phone at a url like http://00e62650f5d5.ngrok.io/iframe.html.
+      -->
+    <!-- src="file:./iframe.html" -->
+    <!-- <iframe
+      src="http://00e62650f5d5.ngrok.io/iframe.html"
+      style="border: none; position: fixed; width: 100%; height: 100%; bottom: 0px; right: 50px;">
+    </iframe> -->
+
+    <div>
+      <h1>Tollitur beneficium, tollitur gratia, quae sunt vincla concordiae.</h1>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam illud quidem adduci vix possum, ut ea, quae senserit ille, tibi non vera videantur. Quam illa ardentis amores excitaret sui! Cur tandem? Atqui perspicuum est hominem e corpore animoque constare, cum primae sint animi partes, secundae corporis. Cur, nisi quod turpis oratio est? <em>Duo Reges: constructio interrete.</em> <a href="http://loripsum.net/" target="_blank" rel="noopener noreferrer">Quid de Platone aut de Democrito loquar?</a> <em>Numquam facies.</em> </p>
+
+      <p><em>Iam in altera philosophiae parte.</em> <a href="http://loripsum.net/" target="_blank" rel="noopener noreferrer">Summum ením bonum exposuit vacuitatem doloris;</a> Quis est tam dissimile homini. Illud dico, ea, quae dicat, praeclare inter se cohaerere. <strong>An haec ab eo non dicuntur?</strong> Cur post Tarentum ad Archytam? </p>
+
+      <ol>
+        <li>Cur id non ita fit?</li>
+        <li>Occultum facinus esse potuerit, gaudebit;</li>
+      </ol>
+
+
+      <blockquote cite="http://loripsum.net">
+        Eorum enim omnium multa praetermittentium, dum eligant aliquid, quod sequantur, quasi curta sententia;
+      </blockquote>
+
+
+      <p>Qua igitur re ab deo vincitur, si aeternitate non vincitur? <a href="http://loripsum.net/" target="_blank" rel="noopener noreferrer">Nam de isto magna dissensio est.</a> Quis Pullum Numitorium Fregellanum, proditorem, quamquam rei publicae nostrae profuit, non odit? Sed quid attinet de rebus tam apertis plura requirere? Non autem hoc: igitur ne illud quidem. Quod non faceret, si in voluptate summum bonum poneret. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Tum Quintus: Est plane, Piso, ut dicis, inquit. Utram tandem linguam nescio? <em>Bonum patria: miserum exilium.</em> </p>
+
+      <p><a href="http://loripsum.net/" target="_blank" rel="noopener noreferrer">Itaque ab his ordiamur.</a> Inscite autem medicinae et gubernationis ultimum cum ultimo sapientiae comparatur. Quasi ego id curem, quid ille aiat aut neget. <em>At ille pellit, qui permulcet sensum voluptate.</em> Nec tamen ullo modo summum pecudis bonum et hominis idem mihi videri potest. <em>Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum.</em> Sed mehercule pergrata mihi oratio tua. Suo genere perveniant ad extremum; </p>
+
+      <blockquote cite="http://loripsum.net">
+        Qui ita affectus, beatum esse numquam probabis;
+      </blockquote>
+
+
+      <ol>
+        <li>Illud urgueam, non intellegere eum quid sibi dicendum sit, cum dolorem summum malum esse dixerit.</li>
+        <li>Ut in geometria, prima si dederis, danda sunt omnia.</li>
+        <li>Dic in quovis conventu te omnia facere, ne doleas.</li>
+      </ol>
+
+
+      <p>Inde sermone vario sex illa a Dipylo stadia confecimus. Age nunc isti doceant, vel tu potius quis enim ista melius? <em>Nihil ad rem! Ne sit sane;</em> <mark>Tum mihi Piso: Quid ergo?</mark> Tenent mordicus. Verum esto: verbum ipsum voluptatis non habet dignitatem, nec nos fortasse intellegimus. Nemo igitur esse beatus potest. Potius ergo illa dicantur: turpe esse, viri non esse debilitari dolore, frangi, succumbere. <a href="http://loripsum.net/" target="_blank" rel="noopener noreferrer">Sic consequentibus vestris sublatis prima tolluntur.</a> </p>
+
+      <p><a href="http://loripsum.net/" target="_blank" rel="noopener noreferrer">Invidiosum nomen est, infame, suspectum.</a> Nec vero pietas adversus deos nec quanta iis gratia debeatur sine explicatione naturae intellegi potest. Apud ceteros autem philosophos, qui quaesivit aliquid, tacet; Verum hoc idem saepe faciamus. Huius, Lyco, oratione locuples, rebus ipsis ielunior. <a href="http://loripsum.net/" target="_blank" rel="noopener noreferrer">Quamvis enim depravatae non sint, pravae tamen esse possunt.</a> <a href="http://loripsum.net/" target="_blank" rel="noopener noreferrer">Quo studio Aristophanem putamus aetatem in litteris duxisse?</a> <em>Recte dicis;</em> </p>
+
+      <ol>
+        <li>Et quod est munus, quod opus sapientiae?</li>
+        <li>Qua tu etiam inprudens utebare non numquam.</li>
+        <li>Vide, ne etiam menses! nisi forte eum dicis, qui, simul atque arripuit, interficit.</li>
+        <li>At quicum ioca seria, ut dicitur, quicum arcana, quicum occulta omnia?</li>
+        <li>Facit enim ille duo seiuncta ultima bonorum, quae ut essent vera, coniungi debuerunt;</li>
+        <li>Quantum Aristoxeni ingenium consumptum videmus in musicis?</li>
+        <li>Sed virtutem ipsam inchoavit, nihil amplius.</li>
+      </ol>
+
+      <p><em>Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet.</em> <strong>Et quidem, inquit, vehementer errat;</strong> Quid ergo attinet gloriose loqui, nisi constanter loquare? Quod non faceret, si in voluptate summum bonum poneret. Idem iste, inquam, de voluptate quid sentit? <a href="http://loripsum.net/" target="_blank" rel="noopener noreferrer">Sint ista Graecorum;</a> Obsecro, inquit, Torquate, haec dicit Epicurus? Itaque sensibus rationem adiunxit et ratione effecta sensus non reliquit. </p>
+
+      <p><strong>Nemo nostrum istius generis asotos iucunde putat vivere.</strong> Nos autem non solum beatae vitae istam esse oblectationem videmus, sed etiam levamentum miseriarum. Summum ením bonum exposuit vacuitatem doloris; <mark>Cur post Tarentum ad Archytam?</mark> Quia nec honesto quic quam honestius nec turpi turpius. Haec et tu ita posuisti, et verba vestra sunt. Nec vero intermittunt aut admirationem earum rerum, quae sunt ab antiquis repertae, aut investigationem novarum. Eadem nunc mea adversum te oratio est. </p>
+
+      <blockquote cite="http://loripsum.net">
+        Quod idem cum vestri faciant, non satis magnam tribuunt inventoribus gratiam.
+      </blockquote>
+      
+      <p><em>Si quae forte-possumus.</em> Quid ait Aristoteles reliquique Platonis alumni? Ab hoc autem quaedam non melius quam veteres, quaedam omnino relicta. <a href="http://loripsum.net/" target="_blank" rel="noopener noreferrer">Quod quidem iam fit etiam in Academia.</a> Sed erat aequius Triarium aliquid de dissensione nostra iudicare. <a href="http://loripsum.net/" target="_blank" rel="noopener noreferrer">Scisse enim te quis coarguere possit?</a> Confecta res esset. Hoc non est positum in nostra actione. Quae diligentissime contra Aristonem dicuntur a Chryippo. Roges enim Aristonem, bonane ei videantur haec: vacuitas doloris, divitiae, valitudo; <mark>Omnes enim iucundum motum, quo sensus hilaretur.</mark> </p>
+
+      <h5>Tu enim ista lenius, hic Stoicorum more nos vexat.</h5>
+
+      <p>Ergo illi intellegunt quid Epicurus dicat, ego non intellego? At ille non pertimuit saneque fidenter: Istis quidem ipsis verbis, inquit; Confecta res esset. Quia dolori non voluptas contraria est, sed doloris privatio. Nonne videmus quanta perturbatio rerum omnium consequatur, quanta confusio? <em>Si enim ad populum me vocas, eum.</em> Et non ex maxima parte de tota iudicabis? Poterat autem inpune; </p>
+
+      <p><a href="http://loripsum.net/" target="_blank" rel="noopener noreferrer">Teneo, inquit, finem illi videri nihil dolere.</a> Eodem modo is enim tibi nemo dabit, quod, expetendum sit, id esse laudabile. Quare ad ea primum, si videtur; Graece donan, Latine voluptatem vocant. Ita enim vivunt quidam, ut eorum vita refellatur oratio. Duo enim genera quae erant, fecit tria. </p>
+
+      <ol>
+        <li>Ergo opifex plus sibi proponet ad formarum quam civis excellens ad factorum pulchritudinem?</li>
+        <li>Satis est ad hoc responsum.</li>
+        <li>Universa enim illorum ratione cum tota vestra confligendum puto.</li>
+        <li>In quibus doctissimi illi veteres inesse quiddam caeleste et divinum putaverunt.</li>
+      </ol>
+
+
+      <h1>Non est ista, inquam, Piso, magna dissensio.</h1>
+
+      <p>Omnes enim iucundum motum, quo sensus hilaretur. Quodcumque in mentem incideret, et quodcumque tamquam occurreret. <a href="http://loripsum.net/" target="_blank" rel="noopener noreferrer">Ut aliquid scire se gaudeant?</a> Illud mihi a te nimium festinanter dictum videtur, sapientis omnis esse semper beatos; Sed quid attinet de rebus tam apertis plura requirere? At ille non pertimuit saneque fidenter: Istis quidem ipsis verbis, inquit; <em>Quid sequatur, quid repugnet, vident.</em> <em>Negat enim summo bono afferre incrementum diem.</em> </p>
+
+      <p><strong>Quare ad ea primum, si videtur;</strong> Pudebit te, inquam, illius tabulae, quam Cleanthes sane commode verbis depingere solebat. <a href="http://loripsum.net/" target="_blank" rel="noopener noreferrer">Non est igitur summum malum dolor.</a> Ita est quoddam commune officium sapientis et insipientis, ex quo efficitur versari in iis, quae media dicamus. </p>
+
+      <h6>At enim hic etiam dolore.</h6>
+
+      <p>Esse enim, nisi eris, non potes. Eam si varietatem diceres, intellegerem, ut etiam non dicente te intellego; Haec quo modo conveniant, non sane intellego. <strong>Iam enim adesse poterit.</strong> </p>
+
+      <p>Id enim volumus, id contendimus, ut officii fructus sit ipsum officium. Cur igitur easdem res, inquam, Peripateticis dicentibus verbum nullum est, quod non intellegatur? <strong>Traditur, inquit, ab Epicuro ratio neglegendi doloris.</strong> Ab his oratores, ab his imperatores ac rerum publicarum principes extiterunt. Quid ergo hoc loco intellegit honestum? Itaque nostrum est-quod nostrum dico, artis est-ad ea principia, quae accepimus. <em>Ita prorsus, inquam;</em> </p>
+
+      <p><a href="http://loripsum.net/" target="_blank" rel="noopener noreferrer">Non autem hoc: igitur ne illud quidem.</a> Aeque enim contingit omnibus fidibus, ut incontentae sint. Varietates autem iniurasque fortunae facile veteres philosophorum praeceptis instituta vita superabat. Inquit, dasne adolescenti veniam? <em>Nullus est igitur cuiusquam dies natalis.</em> Hoc non est positum in nostra actione. Tum, Quintus et Pomponius cum idem se velle dixissent, Piso exorsus est. Ex quo illud efficitur, qui bene cenent omnis libenter cenare, qui libenter, non continuo bene. </p>
+
+      <p>Quae duo sunt, unum facit. <mark>Cur, nisi quod turpis oratio est?</mark> Paulum, cum regem Persem captum adduceret, eodem flumine invectio? Non est enim vitium in oratione solum, sed etiam in moribus. Scaevola tribunus plebis ferret ad plebem vellentne de ea re quaeri. In motu et in statu corporis nihil inest, quod animadvertendum esse ipsa natura iudicet? <em>Erit enim mecum, si tecum erit.</em> Ergo et avarus erit, sed finite, et adulter, verum habebit modum, et luxuriosus eodem modo. </p>
+
+      <h4>Quae similitudo in genere etiam humano apparet.</h4>
+
+      <p>Quod cum dixissent, ille contra. Aliis esse maiora, illud dubium, ad id, quod summum bonum dicitis, ecquaenam possit fieri accessio. Cuius similitudine perspecta in formarum specie ac dignitate transitum est ad honestatem dictorum atque factorum. Quod iam a me expectare noli. Quid iudicant sensus? Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. </p>
+
+      <p>Ergo ita: non posse honeste vivi, nisi honeste vivatur? Quoniam, si dis placet, ab Epicuro loqui discimus. Et nemo nimium beatus est; Ego vero isti, inquam, permitto. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Nec hoc ille non vidit, sed verborum magnificentia est et gloria delectatus. Inde sermone vario sex illa a Dipylo stadia confecimus. Quam nemo umquam voluptatem appellavit, appellat; </p>
+
+      <blockquote cite="http://loripsum.net">
+        Nam quod ait sensibus ipsis iudicari voluptatem bonum esse, dolorem malum, plus tribuit sensibus, quam nobis leges permittunt, cum privatarum litium iudices sumus.
+      </blockquote>
+
+      <p>Ab hoc autem quaedam non melius quam veteres, quaedam omnino relicta. Et hunc idem dico, inquieta sed ad virtutes et ad vitia nihil interesse. <a href="http://loripsum.net/" target="_blank" rel="noopener noreferrer">Sed quid sentiat, non videtis.</a> <em>Pollicetur certe.</em> Ut enim consuetudo loquitur, id solum dicitur honestum, quod est populari fama gloriosum. In omni enim arte vel studio vel quavis scientia vel in ipsa virtute optimum quidque rarissimum est. </p>
+    </div>
+
+    <!-- Example of bug #1 -->
+    <form action="#" autocomplete="off" class="wrapper">
+      <input maxlength="255" type="text" />
+    </form>
+  </body>
+</html>
